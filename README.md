@@ -102,6 +102,7 @@ Examines the impact of employee satisfaction, work-life balance, and tenure on e
 - ✅ Excel Formulas & Functions
 - ✅ Conditional Formatting
 - ✅ HR Data Analysis
+- ✅ Kaggle
 
 ---
 
