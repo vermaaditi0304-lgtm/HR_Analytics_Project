@@ -10,6 +10,7 @@ This project presents an interactive **HR Analytics Dashboard** built using **Mi
 
 - Cleaned and validated the HR dataset.
 - Removed duplicate and inconsistent records.
+- Created lookup tables to organize categorical data and establish relationships for accurate reporting.
 - Organized the data into a structured format for analysis.
 
 ### 📊 Step 2: Data Analysis
@@ -39,37 +40,56 @@ This project presents an interactive **HR Analytics Dashboard** built using **Mi
 
 ## 📊 Dashboard Visualizations
 
-### 📄 Dashboard Page 1: Workforce Overview
+### 📌 Dashboard 1: Executive Summary
+Provides a high-level overview of workforce composition, employee attrition, and key HR metrics.
 
-This dashboard provides a comprehensive overview of the organization's workforce by presenting key HR metrics and employee demographics. It helps users understand the overall composition of employees and monitor important workforce indicators at a glance.
-
-**Insight:** Offers a clear snapshot of employee distribution and organizational health, supporting workforce planning and strategic HR decisions.
-
----
-
-### 📄 Dashboard Page 2: Workforce Distribution & Income Analysis
-
-This dashboard focuses on employee distribution across departments and job roles while analyzing average monthly income. It enables comparison of workforce allocation and salary trends across different organizational units.
-
-**Insight:** Helps identify workforce concentration and income patterns, allowing HR teams to evaluate organizational structure and compensation trends.
+**Visualizations:**
+- KPI Cards: Total Employees, Attrition Count, Attrition Rate, Average Monthly Income, Average Job Satisfaction, Average Work-Life Balance
+- Clustered Column Chart: Attrition by Department
+- 100% Stacked Column Chart: Attrition Rate – Overtime vs No Overtime
+- Doughnut Chart: Workforce Distribution by Gender
+- Column Chart: Employees by Age Group
+- Interactive Slicers: Department, Gender, Overtime, Attrition
 
 ---
 
-### 📄 Dashboard Page 3: Attrition & Employee Satisfaction Analysis
+### 📌 Dashboard 2: Workforce & Compensation
+Analyzes workforce distribution, salary structure, and attrition across departments, job roles, and job levels.
 
-This dashboard analyzes employee attrition alongside job satisfaction and work-life balance metrics. It highlights workforce retention patterns and identifies areas that may require employee engagement initiatives.
+**Visualizations:**
+- Horizontal Bar Chart: Average Monthly Income by Job Level
+- Horizontal Bar Chart: Average Monthly Income by Department
+- Horizontal Bar Chart: Headcount by Job Role
+- Clustered Column Chart: Attrition by Job Level
+- Interactive Slicers: Department, Job Role
 
-**Insight:** Provides valuable insights into employee retention and satisfaction, helping organizations develop strategies to improve engagement and reduce attrition.
+---
+
+### 📌 Dashboard 3: Employee Satisfaction & Retention
+Examines the impact of employee satisfaction, work-life balance, and tenure on employee retention.
+
+**Visualizations:**
+- Clustered Column Chart: Job Satisfaction vs Attrition
+- Clustered Column Chart: Work-Life Balance vs Attrition
+- Pie Chart: Environment Satisfaction Distribution
+- Clustered Column Chart: Attrition by Years at Company
+- Interactive Slicers: Attrition, Overtime, Department
 
 ---
 
 ## 🔍 Key Insights
 
-- Analyzed workforce distribution across departments, job roles, and demographic groups.
-- Identified employee attrition trends to support retention planning.
-- Analyzed salary distribution across different employee categories.
-- Evaluated employee satisfaction and work-life balance metrics.
-- Built an interactive dashboard for efficient HR reporting and workforce analysis.
+* Overall attrition rate is **16.1%**, with **R&D** reporting the highest employee exits.
+* **Sales** and **Sales Executive** roles require targeted retention due to high attrition.
+* Employees working **overtime** have nearly **3× higher attrition** (30.5%) than those who do not.
+* Attrition is highest among **Job Level 1** employees and those with **0–2 years of tenure**.
+* Lower **Job Satisfaction** and **Work-Life Balance** are strongly associated with higher attrition.
+* Employees aged **26–35** form the largest workforce segment, with **60% male** representation.
+* Salary increases consistently with job level, indicating **compensation is not the primary driver** of attrition.
+* Key focus areas for HR include **work-life balance, workload management, and early-career employee retention**.
+
+
+
 
 ---
 
