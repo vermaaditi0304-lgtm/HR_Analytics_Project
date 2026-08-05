@@ -90,9 +90,3 @@ This dashboard analyzes employee attrition alongside job satisfaction and work-l
 This project demonstrates how **Microsoft Excel** can be used as an effective Business Intelligence tool for HR analytics. By combining data cleaning, Pivot Tables, Pivot Charts, and interactive dashboards, the project provides actionable insights into employee demographics, attrition, salary distribution, and employee satisfaction, helping HR teams make informed workforce decisions.
 
 ---
-
-## 📷 Dashboard Preview
-
-### Dashboard
-
-![HR Analytics Dashboard](dashboard.png)
